@@ -10,7 +10,8 @@ namespace RefreshingCourseConsole
     {
         static void Main(string[] args)
         {
-            RefresherCourse.Srp.Test();
+            //RefresherCourse.Srp.Test();
+            OCP.Test();
         }
     }
 }
