@@ -12,7 +12,8 @@ namespace RefreshingCourseConsole
         {
             //RefresherCourse.Srp.Test();
             //OCP.Test();
-            LSP.Test();
+            //LSP.Test();
+            //DIP.Test();
         }
     }
 }

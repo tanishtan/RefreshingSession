@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello", "Hello\Hello.csproj", "{69177E3B-209C-42BE-AA6A-B34E0FC9E834}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hello", "Hello\Hello.csproj", "{69177E3B-209C-42BE-AA6A-B34E0FC9E834}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefreshingCourseConsole", "RefreshingCourseConsole\RefreshingCourseConsole.csproj", "{9FA54729-B3AC-4CE5-A585-7151C0448FD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refresh", "Refresh\Refresh.csproj", "{DCECD1A3-4678-4C50-98F3-B4B7E797B62E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9FA54729-B3AC-4CE5-A585-7151C0448FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FA54729-B3AC-4CE5-A585-7151C0448FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FA54729-B3AC-4CE5-A585-7151C0448FD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCECD1A3-4678-4C50-98F3-B4B7E797B62E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCECD1A3-4678-4C50-98F3-B4B7E797B62E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCECD1A3-4678-4C50-98F3-B4B7E797B62E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCECD1A3-4678-4C50-98F3-B4B7E797B62E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
