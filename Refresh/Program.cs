@@ -2,5 +2,10 @@
 using Refresh;
 
 Repository rp = new Repository();
-rp.GetCategoriesWithProducts();
+//rp.GetCategoriesWithProducts();
 //rp.GetCategoriesWithProductsUsingJoins();
+//rp.GetProductCountByCategory();
+
+//rp.ListAllProductsWithCategoryDetails();
+
+rp.PrintMaxOrderValue();

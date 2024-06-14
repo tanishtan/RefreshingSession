@@ -21,6 +21,7 @@ namespace Refresh
         public string? Description { get; set; }
 
         public ICollection<Product> Products { get; } = new List<Product>();
+        public OrderDetails OrderDetails { get; set; }
     }
 
 
@@ -41,8 +42,9 @@ namespace Refresh
         public short? UnitsInStock { get; set; }
         public bool Discontinued { get; set; } = false;
         public int? CategoryId { get; set; } // optional foregin key
-
-
+        //public int? OrderId { get; set; }
+        public OrderDetails Details { get; set; }
+        //public ICollection<OrderDetails> OrderDetails { get; set; }
         // Navigation
         public Category? Category { get; set; }
     }
